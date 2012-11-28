@@ -9,21 +9,21 @@
     <!-- THIS SHOULD BE SENT AS A HEADER -->
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
     <title>Food Market | Category : Bakery</title>
-<!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
-    <meta content="Subjects" property="og:title" />
-    <meta content="website" property="og:type" />
-    <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
-    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
-    <meta content="TED-Ed" property="og:site_name" />
-    <meta content="authenticity_token" name="csrf-param" />
-    <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
+    <!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
+        <meta content="Subjects" property="og:title" />
+        <meta content="website" property="og:type" />
+        <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
+        <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
+        <meta content="TED-Ed" property="og:site_name" />
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     <link href="css/main-2.css" rel="stylesheet" type="text/css" />
     <link href="http://fast.fonts.com/cssapi/e1b361c6-3f49-479a-b49c-ae79f364d3a9.css" rel="stylesheet" type="text/css" />
     <link href="http://assets.ted.com.s3.amazonaws.com/assets/application-cc8e309d1e71ea2443e9f9c86274f52c.css" media="all" rel="stylesheet" type="text/css" />
-<!--    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />-->
+    <!--    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />-->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <!--    <script src="http://assets.ted.com.s3.amazonaws.com/assets/modernizr-9b92f81deaf7ea3cfeb0e03f3f1a0e0c.js" type="text/javascript"></script>-->
 
@@ -37,17 +37,20 @@
     <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
-	<script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="map/example/screen.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map/example/screen.css" />
 
-	<link rel="stylesheet" href="map/dist/MarkerCluster.css" />
-	<link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
-	<script src="map/dist/leaflet.markercluster-src.js"></script>
-	
-	<script src="map/example/realworld_1.js"></script>
+    <link rel="stylesheet" href="map/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css/tabs.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
+    <script src="map/dist/leaflet.markercluster-src.js"></script>
+    <script src="js/tabs.js"></script>
+  <!--	<script src="js/tabs_old.js"></script>-->
+
+    <script src="map/example/realworld_1.js"></script>
 
   </head>
 
@@ -181,6 +184,48 @@
           </div>
           <div class="videoCells" style="padding: 0 20px;">
             <h1>Nescafe</h1>
+
+            <div id="wrapper">
+              <div id="tabContainer">
+                <div id="tabs">
+                  <ul>
+                    <li id="tabHeader_1">About</li>
+                    <li id="tabHeader_2">History</li>
+                    <li id="tabHeader_3">Recipes</li>
+                  </ul>
+                </div>
+                <div id="tabscontent">
+                  <div class="tabpage" id="tabpage_1">
+                    <h2>Page 1</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+                      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum 
+                      erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                      Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat 
+                      volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
+                  </div>
+                  <div class="tabpage" id="tabpage_2">
+                    <h2>Page 2</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+                      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
+                    <p>Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus 
+                      lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. </p>
+                    <p> Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, 
+                      accumsan porttitor, facilisis luctus, metus. </p>
+                  </div>
+                  <div class="tabpage" id="tabpage_3">
+                    <h2>Page 3</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                    <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris 
+                      placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, 
+                      elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</p>
+                    <p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam 
+                      erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <table class="table table-condensed">
               <thead>
                 <tr>
@@ -270,17 +315,6 @@
     <!-- FOOTER -->
 
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-170299-26']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script type="text/javascript">
       var _sf_async_config={};
       _sf_async_config.uid = 11161;
       _sf_async_config.domain = "ed.ted.com";
@@ -302,6 +336,52 @@
           loadChartbeat : function() { oldonload(); loadChartbeat(); };
       })();
     </script>
+    <script>
+      window.onload=function() {
+
+        // get tab container
+        var container = document.getElementById("tabContainer");
+        var tabcon = document.getElementById("tabscontent");
+        //alert(tabcon.childNodes.item(1));
+        // set current tab
+        var navitem = document.getElementById("tabHeader_1");
+		
+        //store which tab we are on
+        var ident = navitem.id.split("_")[1];
+        //alert(ident);
+        navitem.parentNode.setAttribute("data-current",ident);
+        //set current tab with class of activetabheader
+        navitem.setAttribute("class","tabActiveHeader");
+
+        //hide two tab contents we don't need
+        var pages = tabcon.getElementsByTagName("div");
+        for (var i = 1; i < pages.length; i++) {
+          pages.item(i).style.display="none";
+        };
+
+        //this adds click event to tabs
+        var tabs = container.getElementsByTagName("li");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].onclick=displayPage;
+        }
+      }
+    </script>
+    <script>
+      // on click of one of tabs
+      function displayPage() {
+        var current = this.parentNode.getAttribute("data-current");
+        //remove class of activetabheader and hide old contents
+        document.getElementById("tabHeader_" + current).removeAttribute("class");
+        document.getElementById("tabpage_" + current).style.display="none";
+
+        var ident = this.id.split("_")[1];
+        //add class of activetabheader to new active tab and show contents
+        this.setAttribute("class","tabActiveHeader");
+        document.getElementById("tabpage_" + ident).style.display="block";
+        this.parentNode.setAttribute("data-current",ident);
+      }  
+    </script>
+
     <script src="http://assets.ted.com.s3.amazonaws.com/assets/application-ea4df50c67da25db859df8a2d5d6a6b6.js" type="text/javascript"></script>
 
     <!--[if lt IE 7.]>]
