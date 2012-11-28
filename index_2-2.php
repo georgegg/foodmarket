@@ -9,14 +9,14 @@
     <!-- THIS SHOULD BE SENT AS A HEADER -->
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
     <title>Food Market | Category : Bakery</title>
-<!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
-    <meta content="Subjects" property="og:title" />
-    <meta content="website" property="og:type" />
-    <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
-    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
-    <meta content="TED-Ed" property="og:site_name" />
-    <meta content="authenticity_token" name="csrf-param" />
-    <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
+    <!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
+        <meta content="Subjects" property="og:title" />
+        <meta content="website" property="og:type" />
+        <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
+        <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
+        <meta content="TED-Ed" property="og:site_name" />
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -32,17 +32,17 @@
     <![endif]-->
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
-	<script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="map/example/screen.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map/example/screen.css" />
 
-	<link rel="stylesheet" href="map/dist/MarkerCluster.css" />
-	<link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
-	<script src="map/dist/leaflet.markercluster-src.js"></script>
-	
-	<script src="map/example/realworld_1.js"></script>
+    <link rel="stylesheet" href="map/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
+    <script src="map/dist/leaflet.markercluster-src.js"></script>
+
+    <script src="map/example/realworld_1.js"></script>
 
   </head>
 
@@ -193,14 +193,21 @@
                 <div class="tab-pane fade" id="history">
                   <p>
                     The story of the most favorite coffee in the world is as rich as its flavor. It was in 1930 when the Brazilian government approached NESTLÉ®, asking for a quality cup of coffee that could be made simply through the addition of hot water, keeping its full flavor and fragrance.
+<<<<<<< HEAD
 
                     The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
 
+=======
+                    The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
+>>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                     Today, NESCAFÉ® is an integral part of our lives, joining us in every moment of our day with its excellent coffee aroma and mellow flavor. 
                   </p>
                 </div>
                 <div class="tab-pane fade" id="recipes">
+<<<<<<< HEAD
                   <h2>Frappe</h2>
+=======
+>>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                   <p>
                     1. Start off by putting a little bit of cold water in your shaker (about 3-4 tablespoons).<br/>
                     2. Place two teaspoons of Nescafe Frappe in the water.<br/>
@@ -211,7 +218,10 @@
                     7. Slowly fill the rest of the glass with water until the foam reaches the top of the glass.<br/>
                     8. Sit back and enjoy! 
                   </p>
+<<<<<<< HEAD
                   <a href="#">view more...</a>
+=======
+>>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                 </div>
               </div>
             </div>
@@ -372,5 +382,5 @@
     <!--[if lt IE 7.]>]
       <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
     <![endif]-->
-    </body>
+  </body>
 </html>
