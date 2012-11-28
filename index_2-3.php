@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <!-- THIS SHOULD BE SENT AS A HEADER -->
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Market | Category : Bakery</title>
     <!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
         <meta content="Subjects" property="og:title" />
@@ -34,12 +35,10 @@
     <!--[if IE 8]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie8-890d0d33c7d21d3a20ae8ffd1152ce9b.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
-    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
     <script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="map/example/screen.css" />
 
     <link rel="stylesheet" href="map/dist/MarkerCluster.css" />
@@ -47,8 +46,6 @@
     <link rel="stylesheet" href="css/tabs.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
     <script src="map/dist/leaflet.markercluster-src.js"></script>
-    <script src="js/tabs.js"></script>
-  <!--	<script src="js/tabs_old.js"></script>-->
 
     <script src="map/example/realworld_1.js"></script>
 
@@ -186,41 +183,25 @@
             <h1>Nescafe</h1>
 
             <div id="wrapper">
-              <div id="tabContainer">
-                <div id="tabs">
-                  <ul>
-                    <li id="tabHeader_1">About</li>
-                    <li id="tabHeader_2">History</li>
-                    <li id="tabHeader_3">Recipes</li>
-                  </ul>
+              <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#information" data-toggle="tab">Information</a></li>
+                <li><a href="#history" data-toggle="tab">History</a></li>
+                <li><a href="#recipes" data-toggle="tab">Recipes</a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="information">
+                  <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
+                  <p>
+                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                  </p>
                 </div>
-                <div id="tabscontent">
-                  <div class="tabpage" id="tabpage_1">
-                    <h2>Page 1</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
-                      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum 
-                      erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                      Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat 
-                      volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
-                  </div>
-                  <div class="tabpage" id="tabpage_2">
-                    <h2>Page 2</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
-                      Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
-                    <p>Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus 
-                      lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. </p>
-                    <p> Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, 
-                      accumsan porttitor, facilisis luctus, metus. </p>
-                  </div>
-                  <div class="tabpage" id="tabpage_3">
-                    <h2>Page 3</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                    <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris 
-                      placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, 
-                      elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</p>
-                    <p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam 
-                      erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
-                  </div>
+                <div class="tab-pane fade" id="history">
+                  <p>
+                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="recipes">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
                 </div>
               </div>
             </div>
@@ -314,89 +295,11 @@
     </footer>
     <!-- FOOTER -->
 
-    <script type="text/javascript">
-      var _sf_async_config={};
-      _sf_async_config.uid = 11161;
-      _sf_async_config.domain = "ed.ted.com";
-      (function(){
-        function loadChartbeat() {
-          window._sf_endpt=(new Date()).getTime();
-          var e = document.createElement("script");
-          e.setAttribute("language", "javascript");
-          e.setAttribute("type", "text/javascript");
-          e.setAttribute("src",
-          (("https:" == document.location.protocol) ?
-            "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
-            "http://static.chartbeat.com/") +
-            "js/chartbeat.js");
-          document.body.appendChild(e);
-        }
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != "function") ?
-          loadChartbeat : function() { oldonload(); loadChartbeat(); };
-      })();
-    </script>
-    <script>
-      window.onload=function() {
-
-        // get tab container
-        var container = document.getElementById("tabContainer");
-        var tabcon = document.getElementById("tabscontent");
-        //alert(tabcon.childNodes.item(1));
-        // set current tab
-        var navitem = document.getElementById("tabHeader_1");
-		
-        //store which tab we are on
-        var ident = navitem.id.split("_")[1];
-        //alert(ident);
-        navitem.parentNode.setAttribute("data-current",ident);
-        //set current tab with class of activetabheader
-        navitem.setAttribute("class","tabActiveHeader");
-
-        //hide two tab contents we don't need
-        var pages = tabcon.getElementsByTagName("div");
-        for (var i = 1; i < pages.length; i++) {
-          pages.item(i).style.display="none";
-        };
-
-        //this adds click event to tabs
-        var tabs = container.getElementsByTagName("li");
-        for (var i = 0; i < tabs.length; i++) {
-          tabs[i].onclick=displayPage;
-        }
-      }
-    </script>
-    <script>
-      // on click of one of tabs
-      function displayPage() {
-        var current = this.parentNode.getAttribute("data-current");
-        //remove class of activetabheader and hide old contents
-        document.getElementById("tabHeader_" + current).removeAttribute("class");
-        document.getElementById("tabpage_" + current).style.display="none";
-
-        var ident = this.id.split("_")[1];
-        //add class of activetabheader to new active tab and show contents
-        this.setAttribute("class","tabActiveHeader");
-        document.getElementById("tabpage_" + ident).style.display="block";
-        this.parentNode.setAttribute("data-current",ident);
-      }  
-    </script>
-
-    <script src="http://assets.ted.com.s3.amazonaws.com/assets/application-ea4df50c67da25db859df8a2d5d6a6b6.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 
     <!--[if lt IE 7.]>]
       <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
     <![endif]-->
-    <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
-      NREUMQ.push(["load",new Date().getTime()]);
-      var e=document.createElement("script");
-      e.type="text/javascript";
-      e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
-        "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
-      document.body.appendChild(e);
-      if(NREUMQ.a)NREUMQ.a();
-    };
-    NREUMQ.a=window.onload;window.onload=NREUMQ.f;
-  };
-  NREUMQ.push(["nrfj","beacon-1.newrelic.com","516102e2a5",56389,"elxcRUVfVVwBSxYNV0pAXV9EH1BeAFxB",0,233,new Date().getTime(),"","","","",""]);</script></body>
+  </body>
 </html>

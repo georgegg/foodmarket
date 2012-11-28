@@ -181,14 +181,30 @@
           </div>
           <div class="videoCells" style="padding: 0 20px;">
             <h1>Nescafe</h1>
-            
-            <h3>History</h3>
-            <div>
-              <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
-            Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+            <div id="wrapper">
+              <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#information" data-toggle="tab">Information</a></li>
+                <li><a href="#history" data-toggle="tab">History</a></li>
+                <li><a href="#recipes" data-toggle="tab">Recipes</a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="information">
+                  <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
+                  <p>
+                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="history">
+                  <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
+                  <p>
+                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="recipes">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                </div>
+              </div>
             </div>
-            <br/>
-            
             <table class="table table-condensed">
               <thead>
                 <tr>
@@ -338,54 +354,11 @@
     </footer>
     <!-- FOOTER -->
 
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-170299-26']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script type="text/javascript">
-      var _sf_async_config={};
-      _sf_async_config.uid = 11161;
-      _sf_async_config.domain = "ed.ted.com";
-      (function(){
-        function loadChartbeat() {
-          window._sf_endpt=(new Date()).getTime();
-          var e = document.createElement("script");
-          e.setAttribute("language", "javascript");
-          e.setAttribute("type", "text/javascript");
-          e.setAttribute("src",
-          (("https:" == document.location.protocol) ?
-            "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
-            "http://static.chartbeat.com/") +
-            "js/chartbeat.js");
-          document.body.appendChild(e);
-        }
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != "function") ?
-          loadChartbeat : function() { oldonload(); loadChartbeat(); };
-      })();
-    </script>
-    <script src="http://assets.ted.com.s3.amazonaws.com/assets/application-ea4df50c67da25db859df8a2d5d6a6b6.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 
     <!--[if lt IE 7.]>]
       <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
     <![endif]-->
-    <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
-      NREUMQ.push(["load",new Date().getTime()]);
-      var e=document.createElement("script");
-      e.type="text/javascript";
-      e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
-        "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
-      document.body.appendChild(e);
-      if(NREUMQ.a)NREUMQ.a();
-    };
-    NREUMQ.a=window.onload;window.onload=NREUMQ.f;
-  };
-  NREUMQ.push(["nrfj","beacon-1.newrelic.com","516102e2a5",56389,"elxcRUVfVVwBSxYNV0pAXV9EH1BeAFxB",0,233,new Date().getTime(),"","","","",""]);</script></body>
+    </body>
 </html>
