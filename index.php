@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/main-2.css" rel="stylesheet" type="text/css" />
 <!--    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>-->
@@ -235,7 +236,7 @@
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col1 short videoCountSingleShort videoCount2" id="series_71" data-url="" data-hash="dairy">
-                  <div class="gridCellWrapper" style="background-image: url(images/dairy-eggs_1.jpg); height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/dairy-eggs_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Dairy & Eggs
@@ -305,7 +306,7 @@
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_171" data-url="" data-hash="frozen">
-                  <div class="gridCellWrapper" style="background-image: url(images/frozen_1.jpg); height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/frozen_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Frozen
@@ -374,7 +375,7 @@
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col2 long videoCountSingleShort videoCount3" id="series_21" data-url="" data-hash="meat-fish">
-                  <div class="gridCellWrapper" style="background-image: url(images/meat-fish_3.jpg); height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/meat-fish_3.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Meat, Fish & Poultry
@@ -429,7 +430,7 @@
                 </div>
 
                 <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="drinks">
-                  <div class="gridCellWrapper" style="background: url(images/drinks_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/drinks.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Drinks
@@ -495,7 +496,7 @@
 
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_111" data-url="" data-hash="tins-jars">
-                  <div class="gridCellWrapper" style="background: url(images/tins-jars_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/tins-jars_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Tins, Jars & Cooking
@@ -556,7 +557,7 @@
                 
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_131" data-url="" data-hash="ready_meals">
-                  <div class="gridCellWrapper" style="background-image: url(images/ready-meal_3.jpg); height: 195px;">
+                  <div class="gridCellWrapper" style="background: url(images/ready-meal_3.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Ready Meals
@@ -612,7 +613,7 @@
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
                 <div class="gridCell col2 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="sweets">
-                  <div class="gridCellWrapper"  style="background: url(images/sweets-snacks_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
+                  <div class="gridCellWrapper"  style="background: url(images/sweets-snacks_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Snaks & Sweets
@@ -668,8 +669,122 @@
                     <!-- expanded -->
                   </div>
                 </div>
-                <div class="gridCell col2 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
-                  <div class="gridCellWrapper"  style="background: url(images/recepes_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
+                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
+                  <div class="gridCellWrapper"  style="background: url(images/household.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
+                    <div class="gridMask"></div>
+                    <div class="gridTitle">
+                      Household
+                    </div>
+                    <div class="gridVideoCount">
+                      <span>5 subcaregories</span>
+                      <div class="gridCorner"></div>
+                    </div>
+                    <div class="gridCollapseExpanded">
+                      <span>Collapse</span>
+                      <div class="gridCorner"></div>
+                    </div>
+                    <div class="gridBackground">
+                      <div class="bluePaint">
+<!--                        <img alt="How-things-work_hover_col1" class="col1" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_hover_col1-8017baa7cf2c8d5b7f7a7531ad879298.png" style="width: 100%; margin-top: 0;" />
+                        <img alt="How-things-work_hover_col2" class="col2" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_hover_col2-f8bd3e5cfad2fcbf0a75f909ba30ee64.png" style="width: 100%; margin-top: 0;" />-->
+                      </div>
+
+                      <div class="backgroundMask"></div>
+                    </div>
+                    <div class="gridCellBorderVertical"></div>
+                    <div class="gridCellBorderHorizontal"></div>
+                    <div class="expandedFooterBackground">
+<!--                      <img alt="Series_expanded_background_footer_sample" src="http://assets.ted.com.s3.amazonaws.com/assets/series_expanded_background_footer_sample-87e14ca368db327d150da060e991c499.png" />-->
+                    </div>
+                    <!-- expanded -->
+                    <div class="expandedContent">
+                      <div class="expandedHeader">
+                        <div class="expandedTitle">
+                          Household
+                        </div>
+
+                        <div class="expandedSubTitle">
+
+                        </div>
+                        <div class="expandedBackground">
+<!--                          <img alt="How-things-work_expanded" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_expanded-d1eb041434d58b1ca8277e21fe2099fc.png" />-->
+                        </div>
+                      </div>
+                      <div class="expandedVideoContent">
+
+                        <!-- video content -->
+                        <div class="ninecol fixed last" id="clipBody">
+                          <div class="row">
+                            <!-- START CLIPS -->
+
+                            <!-- START CLIPS -->
+                          </div>
+                        </div>
+                        <!-- video content -->
+                      </div>
+                    </div>
+                    <!-- expanded -->
+                  </div>
+                </div>
+                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
+                  <div class="gridCellWrapper"  style="background: url(images/health.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
+                    <div class="gridMask"></div>
+                    <div class="gridTitle">
+                      Health & Beauty
+                    </div>
+                    <div class="gridVideoCount">
+                      <span>8 subcategories</span>
+                      <div class="gridCorner"></div>
+                    </div>
+                    <div class="gridCollapseExpanded">
+                      <span>Collapse</span>
+                      <div class="gridCorner"></div>
+                    </div>
+                    <div class="gridBackground">
+                      <div class="bluePaint">
+<!--                        <img alt="How-things-work_hover_col1" class="col1" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_hover_col1-8017baa7cf2c8d5b7f7a7531ad879298.png" style="width: 100%; margin-top: 0;" />
+                        <img alt="How-things-work_hover_col2" class="col2" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_hover_col2-f8bd3e5cfad2fcbf0a75f909ba30ee64.png" style="width: 100%; margin-top: 0;" />-->
+                      </div>
+
+                      <div class="backgroundMask"></div>
+                    </div>
+                    <div class="gridCellBorderVertical"></div>
+                    <div class="gridCellBorderHorizontal"></div>
+                    <div class="expandedFooterBackground">
+<!--                      <img alt="Series_expanded_background_footer_sample" src="http://assets.ted.com.s3.amazonaws.com/assets/series_expanded_background_footer_sample-87e14ca368db327d150da060e991c499.png" />-->
+                    </div>
+                    <!-- expanded -->
+                    <div class="expandedContent">
+                      <div class="expandedHeader">
+                        <div class="expandedTitle">
+                          Health & Beauty
+                        </div>
+
+                        <div class="expandedSubTitle">
+
+                        </div>
+                        <div class="expandedBackground">
+<!--                          <img alt="How-things-work_expanded" src="http://assets.ted.com.s3.amazonaws.com/assets/series/how-things-work_expanded-d1eb041434d58b1ca8277e21fe2099fc.png" />-->
+                        </div>
+                      </div>
+                      <div class="expandedVideoContent">
+
+                        <!-- video content -->
+                        <div class="ninecol fixed last" id="clipBody">
+                          <div class="row">
+                            <!-- START CLIPS -->
+
+                            <!-- START CLIPS -->
+                          </div>
+                        </div>
+                        <!-- video content -->
+                      </div>
+                    </div>
+                    <!-- expanded -->
+                  </div>
+                </div>
+                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
+                  <div class="gridCellWrapper"  style="background: url(images/recipes.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Recipes
@@ -725,7 +840,6 @@
                     <!-- expanded -->
                   </div>
                 </div>
-
                 <!-- masonry boxes -->
               </div>
             </div>

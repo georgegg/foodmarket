@@ -12015,11 +12015,11 @@ h1.lessonHeader {
 	width: 21px;
 	height: 20px;
 	margin-top: -5px;
-	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) -21px 0 no-repeat
+	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) -21px 7px no-repeat
 }
 
 .seriesLayout #gridContainer .gridCell.col1:hover .gridVideoCount .gridCorner {
-	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) 1px 0 no-repeat
+	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) 1px 7px no-repeat
 }
 
 .seriesLayout #gridContainer .gridCell.col1 .gridCellBorderVertical {
