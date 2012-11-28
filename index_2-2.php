@@ -230,19 +230,19 @@
                 <td>4.45 €</td>
               </tr>
               <tr class="error">
-                <td><a href="index_2-3.php">Germany</a></td>
+                <td>Germany</td>
                 <td>2.42 €</td>
                 <td>2.95 €</td>
                 <td>4,50 €</td>
               </tr>
               <tr class="warning">
-                <td><a href="index_2-3.php">Italy</a></td>
+                <td>Italy</td>
                 <td>2.46 €</td>
                 <td>3.33 €</td>
                 <td>5.33 €</td>
               </tr>
               <tr class="info">
-                <td><a href="index_2-3.php">U.K.</a></td>
+                <td>U.K.</td>
                 <td>2.33 €</td>
                 <td>3.33 €</td>
                 <td>4.33 €</td>
