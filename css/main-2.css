@@ -1,0 +1,80 @@
+.Washbackground {
+    background: url("../images/bg/header_dg.png") no-repeat scroll 0 -20px #FFFFFF !important;
+    display: block;
+    height: 100px;
+    left: 40px;
+    position: absolute;
+    top: 13px;
+    width: 1075px;
+    z-index: 100;
+}
+
+#subMenuLinks .standardNav .redBackground {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    display: block;
+    height: 58px;
+    left: -1000px;
+    position: absolute;
+    top: 0;
+    width: 6000px;
+    z-index: 90;
+}
+
+#subMenuLinks .standardNav .left {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    float: left;
+    height: 58px;
+    left: -5000px;
+    position: absolute;
+    top: 0;
+    width: 5000px;
+    z-index: 500;
+}
+
+#subMenuLinks .standardNav .right {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    float: left;
+    height: 58px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 5000px;
+    z-index: 500;
+}
+
+#subMenuLinks .standardNav .subNavSpace {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    display: block;
+    float: left;
+    height: 58px;
+    width: 43px;
+}
+
+#subMenuLinks a {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    color: #FFBA2E !important;
+    float: left;
+    font-size: 1.875em;
+    height: 58px;
+    letter-spacing: 0.7px;
+    line-height: 2.11em;
+    margin-right: 43px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#subMenuLinks a.active {
+  color: #FFFFFF !important;
+}
+
+#subMenuLinks .betaNav {
+    background: url("../images/bg/header_submenu_active_mask_bg.png") repeat scroll 0 0 transparent !important;
+    float: left;
+    height: 58px;
+    overflow: hidden;
+}
+
+#bodyNav > li.active > a {
+    background: none repeat scroll 0 0 #74c900 !important;
+    color: #FFFFFF;
+}
