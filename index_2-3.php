@@ -58,7 +58,7 @@
     <div id="headerTop">
       <div class="container">
         <div id="backToTED">
-          <a href="index.php" target="_top">&laquo;  Back to Homepage</a>
+          <a href="index_2-2.php" target="_top">&laquo;  Back to Countries</a>
         </div>
         <div id="userControls">
           <a href="/" target="_top">Register</a>

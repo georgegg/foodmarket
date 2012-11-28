@@ -181,6 +181,14 @@
           </div>
           <div class="videoCells" style="padding: 0 20px;">
             <h1>Nescafe</h1>
+            
+            <h3>History</h3>
+            <div>
+              <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
+            Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+            </div>
+            <br/>
+            
             <table class="table table-condensed">
               <thead>
                 <tr>
