@@ -105,14 +105,14 @@
               <div id="gridContainer">
                 <!-- masonry boxes -->
                 <!-- SINGLE GRID CELL / Expanded example -->
-                <div class="gridCell col2 short videoCountLongTen videoCount10" id="series_11" data-url="fruits" data-hash="fruits">
+                <div class="gridCell col2 short videoCountSingleShort videoCount10" id="series_11" data-url="fruits" data-hash="fruits">
                   <div class="gridCellWrapper" style="background: url(images/fruits_2.jpg) no-repeat 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
                       Fruits & Vegetables
                     </div>
                     <div class="gridVideoCount">
-                      <span>8 sub-categories</span>
+                      <span>9 sub-categories</span>
                       <div class="gridCorner"></div>
                     </div>
                     <div class="gridCollapseExpanded">
@@ -166,7 +166,7 @@
                   </div>
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
-                <div class="gridCell col1 short videoCountLongThirteen videoCount13" id="series_121" data-url="" data-hash="bakery">
+                <div class="gridCell col1 short videoCountSingleShort videoCount13" id="series_121" data-url="" data-hash="bakery">
                   <div class="gridCellWrapper" style="background: url(images/bakery_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
@@ -430,7 +430,7 @@
                   </div>
                 </div>
 
-                <div class="gridCell col1 short videoCountShort videoCount3" id="series_31" data-url="" data-hash="drinks">
+                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="drinks">
                   <div class="gridCellWrapper" style="background: url(images/drinks_1.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
@@ -496,7 +496,7 @@
                 </div>
 
                 <!-- SINGLE GRID CELL / Expanded example -->
-                <div class="gridCell col1 short videoCountLongThirteen videoCount3" id="series_111" data-url="" data-hash="tins-jars">
+                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_111" data-url="" data-hash="tins-jars">
                   <div class="gridCellWrapper" style="background: url(images/tins-jars_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
@@ -613,7 +613,7 @@
                   </div>
                 </div>
                 <!-- SINGLE GRID CELL / Expanded example -->
-                <div class="gridCell col2 short videoCountShort videoCount3" id="series_31" data-url="" data-hash="sweets">
+                <div class="gridCell col2 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="sweets">
                   <div class="gridCellWrapper"  style="background: url(images/sweets-snacks_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
@@ -670,7 +670,7 @@
                     <!-- expanded -->
                   </div>
                 </div>
-                <div class="gridCell col2 short videoCountShort videoCount3" id="series_31" data-url="" data-hash="recipes">
+                <div class="gridCell col2 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
                   <div class="gridCellWrapper"  style="background: url(images/recepes_1.jpg) repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
