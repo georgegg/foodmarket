@@ -198,7 +198,6 @@
                   </p>
                 </div>
                 <div class="tab-pane fade" id="recipes">
-                  <h2>Frappe</h2>
                   <p>
                     1. Start off by putting a little bit of cold water in your shaker (about 3-4 tablespoons).<br/>
                     2. Place two teaspoons of Nescafe Frappe in the water.<br/>
