@@ -19,7 +19,6 @@
     <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
-    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/main-2.css" rel="stylesheet" type="text/css" />
     <!--[if IE 7]>
@@ -29,6 +28,10 @@
     <!--[if IE 8]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie8-890d0d33c7d21d3a20ae8ffd1152ce9b.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="js/app.js" type="text/javascript"></script>
 
   <body class="lessonsLayout lessonsIndexView">
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -557,11 +560,5 @@
   </footer>
   <!-- FOOTER -->
 
-  <script src="js/bootstrap.js" type="text/javascript"></script>
-  <script src="js/app.js" type="text/javascript"></script>
-
-  <!--[if lt IE 7.]>]
-    <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
-  <![endif]-->
   </body>
 </html>

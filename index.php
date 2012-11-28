@@ -19,7 +19,6 @@
     <meta content="/mOkPTQdmh+dFAkodfCYAf5bXnuyOeSEFN/TS3HYquQ=" name="csrf-token" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
-    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/main-2.css" rel="stylesheet" type="text/css" />
@@ -30,6 +29,10 @@
     <!--[if IE 8]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie8-890d0d33c7d21d3a20ae8ffd1152ce9b.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="js/app.js" type="text/javascript"></script>
 
   <body class="seriesLayout seriesIndexView">
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -724,7 +727,7 @@
                     <!-- expanded -->
                   </div>
                 </div>
-                <div class="gridCell col1 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
+                <div class="gridCell col2 short videoCountSingleShort videoCount3" id="series_31" data-url="" data-hash="recipes">
                   <div class="gridCellWrapper"  style="background: url(images/health.jpg) no-repeat scroll 0 0 transparent; height: 195px;">
                     <div class="gridMask"></div>
                     <div class="gridTitle">
@@ -883,14 +886,5 @@
 
     </footer>
     <!-- FOOTER -->
-
-    
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
-
-    <!--[if lt IE 7.]>]
-      <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
-    <![endif]-->
     </body>
 </html>
