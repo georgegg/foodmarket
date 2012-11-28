@@ -11985,7 +11985,11 @@ h1.lessonHeader {
 	font-size: 2.4375em;
 	line-height: 0.9em;
 	margin-top: 25px;
-	z-index: 100
+	z-index: 100;
+  background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col1 .gridVideoCount {
@@ -11993,7 +11997,11 @@ h1.lessonHeader {
 	bottom: 25px;
 	right: 29px;
 	cursor: pointer;
-	z-index: 600
+	z-index: 600;
+  background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col1 .gridVideoCount span {
@@ -12102,7 +12110,11 @@ h1.lessonHeader {
 	letter-spacing: 1px;
 	line-height: 0.9em;
 	margin-top: 22px;
-	z-index: 100
+	z-index: 100;
+   background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col2.long .gridTitle {
@@ -12113,7 +12125,11 @@ h1.lessonHeader {
 	font-size: 2.4375em;
 	line-height: 0.9em;
 	margin-top: 25px;
-	z-index: 100
+	z-index: 100;
+  background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col2 .gridVideoCount {
@@ -12121,7 +12137,11 @@ h1.lessonHeader {
 	bottom: 25px;
 	right: 30px;
 	cursor: pointer;
-	z-index: 600
+	z-index: 600;
+  background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col2 .gridVideoCount span {
@@ -12137,11 +12157,11 @@ h1.lessonHeader {
 	width: 21px;
 	height: 20px;
 	margin-top: -5px;
-	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) -21px 0 no-repeat
+	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) -21px 7px no-repeat
 }
 
 .seriesLayout #gridContainer .gridCell.col2:hover .gridVideoCount .gridCorner {
-	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) 1px 0 no-repeat
+	background: url(http://assets.ted.com.s3.amazonaws.com/assets/grid_cell_corner-06e0b7af7dda75cb72c39fbbf36f04c1.png) 1px 7px no-repeat
 }
 
 .seriesLayout #gridContainer .gridCell.col2 .gridCellBorderVertical {
@@ -12293,7 +12313,11 @@ h1.lessonHeader {
 	font-weight: normal;
 	font-size: 2.4375em;
 	line-height: 0.9em;
-	margin-top: 25px
+	margin-top: 25px;
+  background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col1.expanded .gridVideoCount,.seriesLayout #gridContainer .gridCell.col2.expanded .gridVideoCount {
@@ -12398,7 +12422,11 @@ h1.lessonHeader {
 	font-size: 4.5em;
 	line-height: 0.87em;
 	margin-top: 26px;
-	z-index: 500
+	z-index: 500;
+    background: #FFF;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
 }
 
 .seriesLayout #gridContainer .gridCell.col1.expanded .expandedContent .expandedHeader .expandedSubTitle,.seriesLayout #gridContainer .gridCell.col2.expanded .expandedContent .expandedHeader .expandedSubTitle {

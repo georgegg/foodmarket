@@ -775,43 +775,10 @@
     <!-- FOOTER -->
 
     
-    <script type="text/javascript">
-      var _sf_async_config={};
-      _sf_async_config.uid = 11161;
-      _sf_async_config.domain = "#";
-      (function(){
-        function loadChartbeat() {
-          window._sf_endpt=(new Date()).getTime();
-          var e = document.createElement("script");
-          e.setAttribute("language", "javascript");
-          e.setAttribute("type", "text/javascript");
-          e.setAttribute("src",
-          (("https:" == document.location.protocol) ?
-            "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
-            "http://static.chartbeat.com/") +
-            "js/chartbeat.js");
-          document.body.appendChild(e);
-        }
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != "function") ?
-          loadChartbeat : function() { oldonload(); loadChartbeat(); };
-      })();
-    </script>
-    <script src="http://assets.ted.com.s3.amazonaws.com/assets/application-ea4df50c67da25db859df8a2d5d6a6b6.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 
     <!--[if lt IE 7.]>]
       <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
     <![endif]-->
-    <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
-      NREUMQ.push(["load",new Date().getTime()]);
-      var e=document.createElement("script");
-      e.type="text/javascript";
-      e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
-        "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
-      document.body.appendChild(e);
-      if(NREUMQ.a)NREUMQ.a();
-    };
-    NREUMQ.a=window.onload;window.onload=NREUMQ.f;
-  };
-  NREUMQ.push(["nrfj","beacon-1.newrelic.com","516102e2a5",56389,"elxcRUVfVVwBSxYSV0taV0IYWVdUAUE=",0,172,new Date().getTime(),"","","","",""]);</script></body>
+    </body>
 </html>
