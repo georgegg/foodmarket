@@ -5564,7 +5564,8 @@ nav.pagination .current {
 	float: left;
 	position: relative;
 	z-index: 600;
-	background: url("header_background.png") no-repeat scroll 40px -69px #fff
+	background: url("header_background.png") no-repeat scroll 40px -69px #fff;
+  width: auto;  
 }
 
 #subMenuLinks .standardNav .center .centerWrapper {
