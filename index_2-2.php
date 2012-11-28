@@ -193,21 +193,11 @@
                 <div class="tab-pane fade" id="history">
                   <p>
                     The story of the most favorite coffee in the world is as rich as its flavor. It was in 1930 when the Brazilian government approached NESTLÉ®, asking for a quality cup of coffee that could be made simply through the addition of hot water, keeping its full flavor and fragrance.
-<<<<<<< HEAD
-
-                    The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
-
-=======
-                    The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
->>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                     Today, NESCAFÉ® is an integral part of our lives, joining us in every moment of our day with its excellent coffee aroma and mellow flavor. 
                   </p>
                 </div>
                 <div class="tab-pane fade" id="recipes">
-<<<<<<< HEAD
                   <h2>Frappe</h2>
-=======
->>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                   <p>
                     1. Start off by putting a little bit of cold water in your shaker (about 3-4 tablespoons).<br/>
                     2. Place two teaspoons of Nescafe Frappe in the water.<br/>
@@ -218,10 +208,7 @@
                     7. Slowly fill the rest of the glass with water until the foam reaches the top of the glass.<br/>
                     8. Sit back and enjoy! 
                   </p>
-<<<<<<< HEAD
                   <a href="#">view more...</a>
-=======
->>>>>>> 8f0a39901f66b751b1ecd93d272e76ab6216d12f
                 </div>
               </div>
             </div>

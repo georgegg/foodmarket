@@ -188,7 +188,7 @@
                 <div class="tab-pane fade in active" id="information">
                   <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
                   <p>
-                    NESCAFÉ® Classic is a classic choice. Favorite and lasting, NESCAFÉ® Classic is the absolute type of coffee. With its wonderfully mellow flavor it shares our everyday moments, filling us with warmth and pleasure. After all, its signature says it, “in company with taste”. NESCAFÉ® Classic is available in packs of 50g, 100g and 200g, 20x2g sticks and 10x2g sachets.
+                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
                   </p>
                 </div>
                 <div class="tab-pane fade" id="history">
