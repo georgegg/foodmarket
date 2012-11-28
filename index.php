@@ -23,8 +23,6 @@
     <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/main-2.css" rel="stylesheet" type="text/css" />
-<!--    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>-->
-
     <!--[if IE 7]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie7-032b7c7ec149c7c7e08624c242913327.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
@@ -887,6 +885,8 @@
     <!-- FOOTER -->
 
     
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/modernizr_2.5.3.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
 
     <!--[if lt IE 7.]>]
