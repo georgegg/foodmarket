@@ -194,9 +194,7 @@
                 <div class="tab-pane fade" id="history">
                   <p>
                     The story of the most favorite coffee in the world is as rich as its flavor. It was in 1930 when the Brazilian government approached NESTLÉ®, asking for a quality cup of coffee that could be made simply through the addition of hot water, keeping its full flavor and fragrance.
-
                     The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
-
                     Today, NESCAFÉ® is an integral part of our lives, joining us in every moment of our day with its excellent coffee aroma and mellow flavor. 
                   </p>
                 </div>

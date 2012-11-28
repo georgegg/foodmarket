@@ -9,14 +9,14 @@
     <!-- THIS SHOULD BE SENT AS A HEADER -->
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
     <title>Food Market | Category : Bakery</title>
-<!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
-    <meta content="Subjects" property="og:title" />
-    <meta content="website" property="og:type" />
-    <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
-    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
-    <meta content="TED-Ed" property="og:site_name" />
-    <meta content="authenticity_token" name="csrf-param" />
-    <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
+    <!--    <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." name="description" />
+        <meta content="Subjects" property="og:title" />
+        <meta content="website" property="og:type" />
+        <meta content="http://ed.ted.com/lessons?category_id=141" property="og:url" />
+        <meta content="Use engaging videos on TED-Ed to create customized lessons. You can use, tweak, or completely redo any lesson featured on TED-Ed, or create lessons from scratch based on any video from YouTube." property="og:description" />
+        <meta content="TED-Ed" property="og:site_name" />
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="fhJBouVokjEdaXt/4wiCeZYcuQuHZ4F06UrT3zCuhoQ=" name="csrf-token" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -32,17 +32,17 @@
     <![endif]-->
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
-	<script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="map/example/screen.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" /><![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map/example/screen.css" />
 
-	<link rel="stylesheet" href="map/dist/MarkerCluster.css" />
-	<link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
-	<script src="map/dist/leaflet.markercluster-src.js"></script>
-	
-	<script src="map/example/realworld_1.js"></script>
+    <link rel="stylesheet" href="map/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="map/dist/MarkerCluster.Default.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
+    <script src="map/dist/leaflet.markercluster-src.js"></script>
+
+    <script src="map/example/realworld_1.js"></script>
 
   </head>
 
@@ -186,17 +186,29 @@
                 <div class="tab-pane fade in active" id="information">
                   <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
                   <p>
-                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                    NESCAFÉ® Classic is a classic choice. Favorite and lasting, NESCAFÉ® Classic is the absolute type of coffee. With its wonderfully mellow flavor it shares our everyday moments, filling us with warmth and pleasure. After all, its signature says it, “in company with taste”. NESCAFÉ® Classic is available in packs of 50g, 100g and 200g, 20x2g sticks and 10x2g sachets.
                   </p>
                 </div>
                 <div class="tab-pane fade" id="history">
                   <img src="images/nescafe.jpg" style="width: 150px; height: 120px;">
                   <p>
-                    Nescafé is a brand of instant coffee made by Nestlé. It comes in many different product forms. The name is a portmanteau of the words "Nestlé" and "café".[1] Nestlé's flagship powdered coffee product was introduced in Switzerland on April 1, 1938[1] after being developed for seven[1] or eight[2] years by Max Morgenthaler and Vernon Chapman.[1]
+                    The story of the most favorite coffee in the world is as rich as its flavor. It was in 1930 when the Brazilian government approached NESTLÉ®, asking for a quality cup of coffee that could be made simply through the addition of hot water, keeping its full flavor and fragrance.
+                    The great success took time. But, eight years later, the experts of NESTLÉ® launch the first-ever instant coffee in Switzerland. NESCAFÉ® makes its debut on… April Fool’s Day, in 1938. Nevertheless, this is the discovery that millions of people have loved worldwide. And, this is not a lie.
+                    Today, NESCAFÉ® is an integral part of our lives, joining us in every moment of our day with its excellent coffee aroma and mellow flavor. 
                   </p>
                 </div>
                 <div class="tab-pane fade" id="recipes">
-                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                  <h2>Frappe</h2>
+                  <p>
+                    1. Start off by putting a little bit of cold water in your shaker (about 3-4 tablespoons).<br/>
+                    2. Place two teaspoons of Nescafe Frappe in the water.<br/>
+                    3. Add two teaspoons sugar.<br/>
+                    4. Shake contents very well for about 30 seconds.<br/>
+                    5. Pour frappe into a glass that is half full of ice cubes.<br/>
+                    6. Add a little milk if desired.<br/>
+                    7. Slowly fill the rest of the glass with water until the foam reaches the top of the glass.<br/>
+                    8. Sit back and enjoy! 
+                  </p>
                 </div>
               </div>
             </div>
@@ -355,5 +367,5 @@
     <!--[if lt IE 7.]>]
       <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
     <![endif]-->
-    </body>
+  </body>
 </html>
