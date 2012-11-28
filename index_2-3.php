@@ -21,13 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-    <link href="css/main-2.css" rel="stylesheet" type="text/css" />
-    <link href="http://fast.fonts.com/cssapi/e1b361c6-3f49-479a-b49c-ae79f364d3a9.css" rel="stylesheet" type="text/css" />
-    <link href="http://assets.ted.com.s3.amazonaws.com/assets/application-cc8e309d1e71ea2443e9f9c86274f52c.css" media="all" rel="stylesheet" type="text/css" />
-    <!--    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />-->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<!--    <script src="http://assets.ted.com.s3.amazonaws.com/assets/modernizr-9b92f81deaf7ea3cfeb0e03f3f1a0e0c.js" type="text/javascript"></script>-->
-
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/main-2.css" rel="stylesheet" type="text/css" />
     <!--[if IE 7]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie7-032b7c7ec149c7c7e08624c242913327.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->

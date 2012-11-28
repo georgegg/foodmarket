@@ -20,11 +20,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
     <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-    <link href="css/main-2.css" rel="stylesheet" type="text/css" />
-    <link href="http://fast.fonts.com/cssapi/e1b361c6-3f49-479a-b49c-ae79f364d3a9.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-<!--    <script src="http://assets.ted.com.s3.amazonaws.com/assets/modernizr-9b92f81deaf7ea3cfeb0e03f3f1a0e0c.js" type="text/javascript"></script>-->
-
+    <link href="css/main-2.css" rel="stylesheet" type="text/css" />
     <!--[if IE 7]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie7-032b7c7ec149c7c7e08624c242913327.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
@@ -32,7 +29,6 @@
     <!--[if IE 8]>
       <link href="http://assets.ted.com.s3.amazonaws.com/assets/ie8-890d0d33c7d21d3a20ae8ffd1152ce9b.css" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
-    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
 
   <body class="lessonsLayout lessonsIndexView">
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -561,54 +557,11 @@
   </footer>
   <!-- FOOTER -->
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-170299-26']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-  <script type="text/javascript">
-    var _sf_async_config={};
-    _sf_async_config.uid = 11161;
-    _sf_async_config.domain = "ed.ted.com";
-    (function(){
-      function loadChartbeat() {
-        window._sf_endpt=(new Date()).getTime();
-        var e = document.createElement("script");
-        e.setAttribute("language", "javascript");
-        e.setAttribute("type", "text/javascript");
-        e.setAttribute("src",
-        (("https:" == document.location.protocol) ?
-          "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
-          "http://static.chartbeat.com/") +
-          "js/chartbeat.js");
-        document.body.appendChild(e);
-      }
-      var oldonload = window.onload;
-      window.onload = (typeof window.onload != "function") ?
-        loadChartbeat : function() { oldonload(); loadChartbeat(); };
-    })();
-  </script>
-  <script src="http://assets.ted.com.s3.amazonaws.com/assets/application-ea4df50c67da25db859df8a2d5d6a6b6.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
 
   <!--[if lt IE 7.]>]
     <script defer="defer" src="http://assets.ted.com.s3.amazonaws.com/assets/pngfix-67fc539f21c39351d43ac3c4854921b2.js" type="text/javascript"></script>
   <![endif]-->
-  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
-    NREUMQ.push(["load",new Date().getTime()]);
-    var e=document.createElement("script");
-    e.type="text/javascript";
-    e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
-      "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
-    document.body.appendChild(e);
-    if(NREUMQ.a)NREUMQ.a();
-  };
-  NREUMQ.a=window.onload;window.onload=NREUMQ.f;
-};
-NREUMQ.push(["nrfj","beacon-1.newrelic.com","516102e2a5",56389,"elxcRUVfVVwBSxYNV0pAXV9EH1BeAFxB",0,233,new Date().getTime(),"","","","",""]);</script></body>
+  </body>
 </html>
