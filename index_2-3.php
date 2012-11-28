@@ -201,6 +201,7 @@
                   </p>
                 </div>
                 <div class="tab-pane fade" id="recipes">
+                  <h2>Frappe</h2>
                   <p>
                     1. Start off by putting a little bit of cold water in your shaker (about 3-4 tablespoons).<br/>
                     2. Place two teaspoons of Nescafe Frappe in the water.<br/>
@@ -211,10 +212,11 @@
                     7. Slowly fill the rest of the glass with water until the foam reaches the top of the glass.<br/>
                     8. Sit back and enjoy! 
                   </p>
+                  <a href="#">view more...</a>
                 </div>
               </div>
             </div>
-
+            <hr/>
 
             <table class="table table-condensed">
               <thead>
